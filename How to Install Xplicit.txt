@@ -1,0 +1,16 @@
+Steps to install the program:
+1. Login to your vps using bitvise
+2. Extract the files from zip
+3. Open SFTP from bitvise
+4. Upload by drag n drop the files to your vps (UPLOAD THE FILES NOT FOLDER)
+5. Open Terminal and run these command
+	-sudo apt-get purge 'php7*' && sudo add-apt-repository ppa:ondrej/php && sudo apt-get update && sudo apt-get install php7.2 php7.2-common && sudo apt-get install php7.2-curl php7.2-xml php7.2-zip php7.2-gd php7.2-mysql php7.2-mbstring
+	-chmod 755 Xplicit
+
+Steps to configure the sender:
+IMPORTANT NOTICE (DEFAULT CONFIGURATION ARE INBOX ALL YOU NEED JUST PUT THE KEY, SMTP AND MAIL TO TEST)
+1. Edit Settings and put your smtp, key and frommail *if you needed
+2. Edit Leads and put your mail to test
+3. Run the program by Open terminal and put this command ./Xpicit
+
+Once you seen inbox you can start to adjust the letter, subject and fromname by editing them 1 by 1
